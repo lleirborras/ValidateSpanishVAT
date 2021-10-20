@@ -43,7 +43,7 @@ module CustomValidator
     end
 
   # Validates CIF
-  def validate_cif(value)
+  def self.validate_cif(value)
     pares = 0
     impares = 0
     uletra = ["J", "A", "B", "C", "D", "E", "F", "G", "H", "I"]
